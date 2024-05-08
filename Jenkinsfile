@@ -1,7 +1,7 @@
 pipeline{
   agent any
-  Stages {
-   stage('clean workspace){
+  stages{
+     stage('clean workspace'){
       steps{
         cleanWs()
       }
